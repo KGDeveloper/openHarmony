@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "LoginModuleAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "LoginModuleAbility_label",
+      "value": "label"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "module": {
+    "name": "loginModule",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "LoginModuleAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1",
+      "car"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "LoginModuleAbility",
+        "srcEntry": "./ets/loginmoduleability/LoginModuleAbility.ets",
+        "description": "$string:LoginModuleAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:LoginModuleAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}
