@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/mrqi/.ohos/config/default_openHarmony_9iLFeOG6xvPvojg9bK5Rh0cL67I3DIp7YDIG-10yAJg=.cer",
+          "storePassword": "0000001BBF12139DE1E3D71198706A31F77F7795730CC34034771333943FE3DBA2301107D522A49FCD9B39",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B17FD36B34E4BA897A42094B45FACC1056EA9CCE66BE1008B9A9C7ED65DE910C69D6592C658AC95",
+          "profile": "/Users/mrqi/.ohos/config/default_openHarmony_9iLFeOG6xvPvojg9bK5Rh0cL67I3DIp7YDIG-10yAJg=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/mrqi/.ohos/config/default_openHarmony_9iLFeOG6xvPvojg9bK5Rh0cL67I3DIp7YDIG-10yAJg=.p12"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
@@ -38,8 +52,8 @@
       ]
     },
     {
-      "name": "loginModule",
-      "srcPath": "./loginModule",
+      "name": "NetWorkModule",
+      "srcPath": "./NetWorkModule",
       "targets": [
         {
           "name": "default",
@@ -48,6 +62,10 @@
           ]
         }
       ]
+    },
+    {
+      "name": "login",
+      "srcPath": "./login",
     }
   ]
 }

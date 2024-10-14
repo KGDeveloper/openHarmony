@@ -1,0 +1,12 @@
+{
+  "name": "networking",
+  "version": "1.0.1",
+  "description": "the network package, include get, post, upload, download...request method.",
+  "main": "Index.ets",
+  "keywords": ['network','request','http','https'],
+  "author": "Mr.Qi",
+  "license": "Apache-2.0",
+  "packageType": "InterfaceHar",
+  "dependencies": {
+  }
+}
